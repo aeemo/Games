@@ -1,3 +1,3 @@
 # Games
 
-visit bit.ly/IGamesKletech
+visit [Game Website](bit.ly/IGamesKletech)
