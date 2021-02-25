@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -21,26 +21,42 @@
         div {
             text-align: center;
         }
+        .column {
+        float: left;
+        width: 33.33%;
+        margin-top: 450px;
+        }
+
+        /* Clear floats after image containers */
+        .row::after {
+        content: "";
+        clear: both;
+        display: table;
+        }
     </style>
 
 </head>
 <body>
     <h1 style="        color: paleturquoise; font-size: 50px;" >Interactive Games </h1>
     <br /><br /><br /><br /><br />
-        <p>
-        <a href="https://aeemo.github.io">
+    <div class="row">
+        <div class="column">
+            <a href="https://aeemo.github.io">
             <img src="index_files/gamePlay.png" alt="Shooter game" width="480" height="320" align="left" hspace="20">
-        </a>
-   
+            </a>
+        </div>
+        <div class="column">
+            
         <a href="Game3/fruitbasket">
             <img src="index_files/Game_3.PNG" alt="Drag and Drop" width="480" height="320" align="middle">
         </a>
 
-        <a href="Game1/jumpingjo">
-            <img src="index_files/Game_1.PNG" alt="Jumping Jo" width="480" height="320" align="right">
-        </a>
-    </p>
-
+        </div>
+        <div class="column">
+            <a href="Game1/jumpingjo">
+                <img src="index_files/Game_1.PNG" alt="Jumping Jo" width="480" height="320" align="right">
+            </a></div>
+      </div>
 
     <!img src="index_files/gamePlay.png" alt="W3Schools.com" width="320" height="215">
 </body>
